@@ -36,3 +36,19 @@ Complete the implementation of your Wiki encyclopedia. You must fulfill the foll
     -   The user should be able to click a button to save the changes made to the entry.
     -   Once the entry is saved, the user should be redirected back to that entry’s page.
 -   **Random Page**: Clicking “Random Page” in the sidebar should take user to a random encyclopedia entry.
+## Functions
+* `index()`
+		* Renders `index.html` page
+* `entry()`
+	* Renders selected entry if any else renders error message
+* `random_entry()`
+	* Returns random entry
+* `search_results()`
+	* Displays the results after using 'search' functionality
+* `new_page()`
+	* Displays form where the user can create new entry
+* `edit_page()`
+	* The user is taken to a page where the Markdown content can be edited in `textarea`
+	* The `textarea`  pre-populated with the existing Markdown content of the page
+	* The user is able to click a button to save the changes made to the entry
+	* Once the entry is saved, the user is redirected back to that entry’s page
