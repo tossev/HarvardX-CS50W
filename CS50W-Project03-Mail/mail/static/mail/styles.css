@@ -1,0 +1,37 @@
+textarea {
+    min-height: 400px;
+}
+
+#recipients-alert{
+    color: red;
+}
+
+#mail-card{
+    border: 1px solid;
+    border-style: outset;
+    border-radius: 5px;    
+}
+
+#mail-card :hover{
+    cursor: default;
+}
+
+#mail-card-sender{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#mail-card-timestamp{
+    float: right;
+    margin-right: 1em;
+}
+
+#text-display{
+    background-color: white;
+    width: 100%;    
+    border: none;
+}
+
+.btn-secondary{
+    margin-left: 0.25em;
+}
