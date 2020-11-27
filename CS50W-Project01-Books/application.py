@@ -12,6 +12,31 @@ from flask_paginate import Pagination, get_page_parameter, get_page_args
 
 app = Flask(__name__)
 
+# Please note that these credentials are not permanent.
+
+# Heroku rotates credentials periodically and updates applications where this database is attached.
+
+# Host
+# ec2-46-137-188-105.eu-west-1.compute.amazonaws.com
+
+# Database
+# d9nf8gmbg9nim4
+
+# User
+# naderpeswwpwxm
+
+# Port
+# 5432
+
+# Password
+# e47683652f35dcaef4a25bfa022e695df0ea3797fc6d84969413ce29f2bdf556
+
+# URI
+# postgres://naderpeswwpwxm:e47683652f35dcaef4a25bfa022e695df0ea3797fc6d84969413ce29f2bdf556@ec2-46-137-188-105.eu-west-1.compute.amazonaws.com:5432/d9nf8gmbg9nim4
+
+# Heroku CLI
+# heroku pg:psql postgresql-acute-42153 --app book-review-tsv
+
 # Check for environment variable
 if not os.getenv("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")

@@ -6,3 +6,5 @@ requests
 WTForms
 flask-wtf
 flask-pagination
+email_validator
+flask_paginate
