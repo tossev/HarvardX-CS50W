@@ -1,6 +1,9 @@
   # CS50W Project 3 - Mail
   ## Description
   Design a front-end for an email client that makes API calls to send and receive emails.
+  
+  Video for CS50W-Project03-Mail --> https://youtu.be/psdNiSQieJA
+  
   ## Understanding
   In the distribution code is a Django project called project3 that contains a single app called mail.
 
