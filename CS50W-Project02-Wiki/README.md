@@ -1,7 +1,7 @@
 # CS50W Project 2 - Wiki
 ## Description
 Design a Wikipedia-like online encyclopedia.
-Video for CS50W-Project02-Wiki --> https://youtu.be/1A485iGdCiA
+Video for CS50W-Project02-Wiki -> https://youtu.be/1A485iGdCiA
 ## Understanding
 In the distribution code is a Django project called  `wiki`  that contains a single app called  `encyclopedia`.
 
