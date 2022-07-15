@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 This is simple static fanpage. It is made with HTML, CSS and Bootstrap. It has five different pages.
 
-Video for CS50W-Project00-Bio ---> https://youtu.be/oxtRNp6uwaE
+Video for CS50W-Project00-Bio -> https://youtu.be/oxtRNp6uwaE
 
 ## Requirements
 
