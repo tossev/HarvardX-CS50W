@@ -2,6 +2,9 @@
 # Project 01 - Books
 
 Web Programming with Python and JavaScript
+
+Video for CS50W-Project01-Books -> https://youtu.be/sRQdEljUnow
+
 ## Objectives
 
 -   Become more comfortable with Python.
