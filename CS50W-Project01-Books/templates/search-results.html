@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+{% if records %}
+  <legend>Book(s) with <em>{{ column }}</em> like <em>{{ query }}</em></legend>
+
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Book title</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for book in records %}
+            <tr>
+              <td>{{ loop.index + (page - 1) * per_page }}</td>
+              <td><a href="{{ url_for('book', title =book[2]) }}">{{ book[2] }}</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {{ pagination.info }}
+    {{ pagination.links }}
+</div>
+{% else %}
+  <h2>No results for {{ column }} like {{ query }}</h2>
+  <a href="{{ url_for('search')}}">Go back to Search</a>
+{% endif %}
+
+{% endblock content %}

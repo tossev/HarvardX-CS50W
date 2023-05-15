@@ -1,0 +1,10 @@
+Flask
+Flask-Session
+psycopg2-binary
+SQLAlchemy
+requests
+WTForms
+flask-wtf
+flask-pagination
+email_validator
+flask_paginate
